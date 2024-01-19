@@ -7,14 +7,15 @@ body {
     width: 80%;
     margin: 0 auto;
 }
-.btn-primary{
-color: #FFF;
-font-size: 20px;
-font-weight: 700;
-padding: 20px 43px;
-background-color: #E55473;
-border-radius: 8px;
-border: 0;
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: 0;
 }
 
 header {
@@ -49,4 +50,61 @@ header {
     font-style: normal;
     font-weight: 400;
     padding: 32px 0;
+}
+
+/* our featured flower section */
+
+.feature-section{
+    margin-top: 178px;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.box-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+
+.box>a {
+    display: block;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.box1 {
+    background-color: #A7216226;
+    padding: 110px 78px 0 76px;
+    border-radius: 250px 250px 0 0;
+}
+
+.box2 {
+    background-color: #0597A026;
+    padding: 117px 47px 0px 47px;
+    border-radius: 250px 250px 0 0;
+}
+
+.box3 {
+    background-color: #477D1126;
+    padding: 67px 75px 0 75px;
+    border-radius: 250px 250px 0 0;
 }
