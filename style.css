@@ -169,13 +169,47 @@ header {
     font-weight: 400;
     margin-top: 16px;
 }
-.input{
+
+.input {
     margin-top: 48px;
 }
-.input-email{
+
+.input-email {
     border: 0;
     padding: 20px 43px;
     border-radius: 8px;
     width: 700px;
     height: 30px;
+}
+
+/* footer  */
+.footer {
+    margin-top: 128px;
+    background-color: black;
+    padding: 128px;
+}
+
+.footer-title {
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
