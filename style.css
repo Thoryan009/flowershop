@@ -71,7 +71,7 @@ header {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    margin-top: 24px;
+    padding: 24px;
 }
 
 .box-container {
@@ -107,4 +107,21 @@ header {
     background-color: #477D1126;
     padding: 67px 75px 0 75px;
     border-radius: 250px 250px 0 0;
+}
+
+/* featured */
+.hot-deal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E554730D;
+    margin-top: 128px;
+    padding: 100px;
+}
+.content{
+    width: 50%;
+    text-align: center;
+}
+.Off{
+    color: #E55473;
 }
