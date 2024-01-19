@@ -54,7 +54,7 @@ header {
 
 /* our featured flower section */
 
-.feature-section{
+.feature-section {
     margin-top: 178px;
 }
 
@@ -110,7 +110,7 @@ header {
 }
 
 /* featured */
-.hot-deal{
+.hot-deal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,22 +118,64 @@ header {
     margin-top: 128px;
     padding: 100px;
 }
-.content{
+
+.content {
     width: 50%;
     text-align: center;
 }
-.Off{
+
+.Off {
     color: #E55473;
 }
 
 /* instagram section  */
-.instgram-container{
+.instgram-container {
     display: flex;
     gap: 24px;
     margin-top: 48px;
     justify-content: center;
 
 }
-.instagram-section{
+
+.instagram-section {
     margin-top: 128px;
+}
+
+
+/* latest deal section  */
+.deal-container {
+    background-image: url('./Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 128px;
+    padding: 132px;
+}
+
+.deal-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+
+}
+
+.dael-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.input{
+    margin-top: 48px;
+}
+.input-email{
+    border: 0;
+    padding: 20px 43px;
+    border-radius: 8px;
+    width: 700px;
+    height: 30px;
 }
